@@ -1,0 +1,10 @@
+# this code will show the total of a factorial of a value
+
+def factorial(n):
+    result = 1
+    for i in range(1, n):
+        result = result * (i+1)
+    return result
+
+print("Give the number: ")
+print("Result is = ", factorial(int(input())))
