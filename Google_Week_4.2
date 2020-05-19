@@ -82,9 +82,10 @@ print out: Ken is 30 years old and works as Chef. Pat is 35 years old and works 
 years old and works as Engineer. Fill in the gaps in this function to do that. 
 ### ### ###
 def guest_list(guests):
-	for guest, x in enumerate(guests):
-		# ___
-		print("{} is {} years old and work as {}".format(x[0], x[1], x[2]))
+  for guest in guests:
+    data = guest
+    (x) = data
+    print("{} is {} years old and works as {}".format(x[0], x[1], x[2]))
 
 guest_list([('Ken', 30, "Chef"), ("Pat", 35, 'Lawyer'), ('Amanda', 25, "Engineer")])
 
