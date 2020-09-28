@@ -1,0 +1,11 @@
+# This code will show the domino effect with nested For-loops
+
+print("Give me a number and see the effect: ")
+n = int(input())
+#loop for left side
+for left in range(n):
+  #loop for right side
+  for right in range(left, n):
+    #print the design
+    print("[" + str(left) + "|" + str(right) + "]", end = " ")
+  print()
