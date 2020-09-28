@@ -1,9 +1,16 @@
 #This math code is a simple form of calculating the total sum of a divisor number.
+#exp : divisor of 8 = 1x8, 2x4, so 1+2+4 =  7
+#exp : divisor of 16 = 1x16, 2x8, 4x4, so 1+2+4+8 = 15
 
+#define the function
 def sum_divirsor(n):
+  #initial starting sum = 0
   sum = 0
+  #for loop from range 1 to given value
   for i in range (1, n):
+    #cheking division of the value without any reminder
     if (n % i) == 0:
+      #adding the division
       sum = i + sum
   return sum
 
