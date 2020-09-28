@@ -1,4 +1,4 @@
-#This math code is a simple form of calculating the total sum of a divirsor number.
+#This math code is a simple form of calculating the total sum of a divisor number.
 
 def sum_divirsor(n):
   sum = 0
