@@ -1,5 +1,5 @@
 # 1. The following code will display a word in each separate line
-## q. The show_letters function should print out each letter of a word on a separate line. Fill in the blanks to make that happen.
+## Q. The show_letters function should print out each letter of a word on a separate line. Fill in the blanks to make that happen.
 
 ##### Solve:
     def show_letters(word):
