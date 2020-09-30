@@ -3,10 +3,12 @@
 
 ##### Solve:
 > def show_letters(word):
- 	for letter in word:
-		print(letter)
-
- show_letters("Hello")
+>
+>  	for letter in word:
+>
+>		print(letter)
+>
+> show_letters("Hello")
 
 
 # 2. The following line of code will print a sequance of number using while loop
