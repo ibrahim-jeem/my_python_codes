@@ -1,4 +1,4 @@
-# 1.Q. The email_list function receives a dictionary, which contains domain names as keys, and a list of users as values. Fill in the blanks to generate a list that contains complete email addresses (e.g. diana.prince@gmail.com).
+## 1.Q. The email_list function receives a dictionary, which contains domain names as keys, and a list of users as values. Fill in the blanks to generate a list that contains complete email addresses (e.g. diana.prince@gmail.com).
 
 ##### Solve:
 	def email_list(domains):
@@ -11,7 +11,7 @@
 	print(email_list({"gmail.com": ["clark.kent", "diana.prince", "peter.parker"], "yahoo.com": ["barbara.gordon", "jean.grey"], "hotmail.com": ["bruce.wayne"]}))
 
 
-# 2.Q. The groups_per_user function receives a dictionary, which contains group names with the list of users. Users can belong to multiple groups. Fill in the blanks to return a dictionary with the users as keys and a list of their groups as values. 
+## 2.Q. The groups_per_user function receives a dictionary, which contains group names with the list of users. Users can belong to multiple groups. Fill in the blanks to return a dictionary with the users as keys and a list of their groups as values. 
 
 ##### Solve:
 	def groups_per_user(group_dictionary):
@@ -32,7 +32,7 @@
 			"administrator": ["admin"] }))
     
     
-# 5.Q. The add_prices function returns the total price of all of the groceries in the dictionary. Fill in the blanks to complete this function.
+## 5.Q. The add_prices function returns the total price of all of the groceries in the dictionary. Fill in the blanks to complete this function.
 
 ##### Solve:
     def add_prices(basket):
