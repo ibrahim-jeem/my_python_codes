@@ -1,5 +1,5 @@
 # 1. The following code will display a word in each separate line
-# q. The show_letters function should print out each letter of a word on a separate line. Fill in the blanks to make that happen.
+## q. The show_letters function should print out each letter of a word on a separate line. Fill in the blanks to make that happen.
 ### ### ###
 def show_letters(word):
 	for letter in word:
@@ -9,7 +9,7 @@ show_letters("Hello")
 ### ### ###
 
 # 2. The following line of code will print a sequance of number using while loop
-# Q. Fill in the blanks of this code to print out the numbers 1 through 7.
+## Q. Fill in the blanks of this code to print out the numbers 1 through 7.
 ### ### ###
 while number <= 7:
 	print(number, end=" ")
@@ -17,7 +17,7 @@ while number <= 7:
 ### ### ###
 
 # 3. This code will count how many digits in a given number
-# Q. Complete the function digits(n) that returns how many digits the number has.
+## Q. Complete the function digits(n) that returns how many digits the number has.
 For example: 25 has 2 digits and 144 has 3 digits.
 Tip: you can figure out the digits of a number by dividing it by 10 once per digit until there are no digits left.
 ### ### ###
@@ -37,7 +37,7 @@ print(digits(0))    # Should print 1
 ### ### ###
 
 # 4. This code will print the product of some given number
-# Q. This function prints out a multiplication table 
+## Q. This function prints out a multiplication table 
 (where each number is the result of multiplying the first number of its row by the number at the top of its column). 
 Fill in the blanks so that calling multiplication_table(1, 3) will print out:
 
@@ -58,7 +58,7 @@ multiplication_table(1, 3)
 ### ### ###
 
 # 5. This code will show tha Up-Down count from start to stop
-# Q. The counter function counts down from start to stop when start is bigger than stop,
+## Q. The counter function counts down from start to stop when start is bigger than stop,
 and counts up from start to stop otherwise. Fill in the blanks to make this work correctly.
 ### ### ###
 def counter(start, stop):
@@ -85,7 +85,7 @@ print(counter(5, 5)) # Should be "Counting up: 5"
 ### ### ###
 
 # 6. Following code will display the even numbers
-# Q. The even_numbers function returns a space-separated string of all positive numbers that are divisible by 2, 
+## Q. The even_numbers function returns a space-separated string of all positive numbers that are divisible by 2, 
 up to and including the maximum that's passed into the function. For example, even_numbers(6) returns “2 4 6”. 
 Fill in the blank to make this work.
 ### ### ###
