@@ -1,3 +1,5 @@
+#This code will deside / catogorise which animal belongs to wich catagory
+
 class Animal:
     name = ""
     category = ""
