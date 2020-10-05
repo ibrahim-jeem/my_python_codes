@@ -1,3 +1,5 @@
+#This code collect some data and past it in a Django webserver
+
 #! /usr/bin/env python3
 import os
 import requests
