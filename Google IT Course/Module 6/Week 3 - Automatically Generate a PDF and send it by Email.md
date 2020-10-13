@@ -8,7 +8,7 @@
  
 #### Output:
 
-  ![output 1](/Google%1IT%1Course/Module%16/img/output_1.png)
+  ![output 1](/Google%10IT%10Course/Module%106/img/output_1.png)
 
 #### In the scripts/ directory, you will find reports.py and emails.py files. These files are used to generate PDF files and send emails respectively.
 
