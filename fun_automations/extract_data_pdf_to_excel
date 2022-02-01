@@ -1,4 +1,45 @@
 # This code will extract time from JFE time sheet and put them in the excell time sheet
 
+import openpyxl as xl
+from openpyxl import Workbook, load_workbook, worksheet
+# from openpyxl.utils import get_column_latter
+from xlutils.copy import copy
 
 
+###Defining the excell workbook and worksheet as WB and WS
+wb1 = xl.load_workbook('New Monthly Time Record - 2021.xlsx')
+ws1 = wb1.active
+
+###Creates a new worksheet
+# ws2 = wb1.create_sheet('January 2022')
+
+###Copying / Duplicate a worksheet
+# ws2 = wb1.active		#Defining new worksheet
+ws2 = wb1.copy_worksheet(ws1) #Coppying a active ws from wb
+
+###Changing the value of a specific cell
+ws2['A12'] = input()	#Give the value to change
+
+###Removes a worksheet
+# std = wb1.get_sheet_by_name('December - 2021 Copy')
+# wb1.remove_sheet(wb1.get_sheet_by_name('December - 2021 Copy'))
+
+###Calculating max row and column of the specific worksheet (WS1)
+# mr = ws1.max_row
+# mc = ws1.max_column
+
+###Coppying the cell valuse using Loop function
+# for i in range (1, mr+1):
+# 	for j in range(1, mc+1):
+# 		c = ws1.cell(row = i, column = j)
+
+# 		ws2.cell(row = i, column = j).value = c.value
+
+###Saving the file
+wb1.save('New Monthly Time Record - 2021.xlsx')
+
+###Seeing the values in a specific cell
+# print(ws1['A12'].value)
+
+print(wb1.sheetnames)
+print(ws1)
